@@ -12,7 +12,7 @@ public class SalaryCalculator {
 		Tester tester2 = new Tester();
 		tester2.setName("Maria");
 		tester2.setRatePerHour(25);
-		
+		tester2.setAge(20);
 
 		System.out.println(tester1.getName());
 		System.out.println(tester2.getName());
@@ -24,7 +24,7 @@ public class SalaryCalculator {
 		SalaryCalculator calc = new SalaryCalculator();
 		
 		System.out.println("Salariul lui " + tester1.getName() + " este " +calc.calculateSalary(tester1.getRatePerHour()) );
-		
+		System.out.println(tester2.getName() + " are " +tester2.getAge() + " ani ");
 	
 	}
 	

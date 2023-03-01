@@ -10,7 +10,7 @@ public class Tester {
 	//variablie
 	String name;
 	int ratePerHour;
-	
+	int age;
 	
 	//metode
 	public String getName() {
@@ -29,7 +29,13 @@ public class Tester {
 		this.ratePerHour = ratePerHour;
 	}
 	
-
+	public int getAge() {
+		return age;
+	}
+	//tester1.setName("Oana");
+	public void setAge(int age) {
+		this.age = age;
+	}
 	
 	
 
