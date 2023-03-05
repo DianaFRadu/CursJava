@@ -19,6 +19,7 @@ public class FirstClass {
 		System.out.println(prenume);
 		
 		System.out.println(obiect.nume);
+		System.out.println(obiect.varsta);
 		
 	}
 	

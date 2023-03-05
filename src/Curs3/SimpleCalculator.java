@@ -16,7 +16,7 @@ public class SimpleCalculator {
 	int num1;
 	int num2;
 	char operation;
-	
+	int result;
 	
 	public void askTheUser() {
 		Scanner scan = new Scanner(System.in);
@@ -29,23 +29,30 @@ public class SimpleCalculator {
 	}
 	
 	public void calculator() {
+		
 		if(operation == '+') {
 			result = num1+num2;
 			printResult();
-		} else if(operation == '-');{
+		} else if(operation == '-'){
 			result = num1-num2;
 			printResult();
-		}
-			else if(operation == '*');{
+		}else if(operation == '*'){
 				result = num1*num2;
 				printResult();
-		}else if(operation == '*');{
+		}else if(operation == '/'){
 			result = num1/num2;
 			printResult();
-	}
-	
-	public void print result() {
-		System.out.println(num1 + " " + operation + " " +num2 " = "+ result);
+		} else if(operation == 'x'){
+		result = num1*num2;
+		printResult();
+		}else if(operation == ':'){
+			result = num1/num2;
+			printResult();
+		}else {
+		System.out.println("Wrong operation");
 	}
 }
+	public void printResult() {
+		System.out.println(num1 + " " + operation + " " +num2 +" = "+ result);
+	}
 }
