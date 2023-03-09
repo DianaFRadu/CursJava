@@ -2,7 +2,6 @@ package Curs4;
 
 public class LetterSearch {
 
-	public static void main(String[] args) {
 		/**
 		 * facem un program care citeste un string de la tastatura
 		 * cautam in stringul respectiv daca contine litera A
