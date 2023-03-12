@@ -46,5 +46,4 @@ public class ForvsWhile {
 		System.out.println("Suma totala :" + suma);
 
 	}
-
 }
